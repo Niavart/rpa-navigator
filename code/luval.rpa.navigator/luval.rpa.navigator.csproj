@@ -28,7 +28,7 @@
     <ProductName>RPA Navigator</ProductName>
     <PublisherName>Oscar Marin</PublisherName>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>34</ApplicationRevision>
+    <ApplicationRevision>35</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

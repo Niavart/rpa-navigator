@@ -66,11 +66,10 @@ namespace luval.rpa.console
             private string SaveReport(RuleProfile profile, IEnumerable<IRule> rules, IEnumerable<Result> results, Release release)
             {
                 var fileName = (!string.IsNullOrWhiteSpace(release.Name) ? release.Name : @"result") + ".xlsx";
-                if (string.IsNullOrWhiteSpace(fileName)) return "result.xlsx";
-                var fileInfo = new FileInfo(fileName);
+                //var fileInfo = new FileInfo(fileName);
                 release.GetAnalysisUnits();
-                ExcelOutputGenerator temp = new ExcelOutputGenerator();
-                temp.CreateReport(fileInfo.FullName, profile, rules, results, release);
+                ExcelOutputGenerator excelGenerator = new ExcelOutputGenerator();
+                excelGenerator.CreateReport(Path.GetDirectoryName(_fileName) + @"\" + fileName, profile, rules, results, release);
                 return fileName;
             }
 
