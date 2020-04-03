@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.49
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luval.rpa.common", "luval.rpa.common\luval.rpa.common.csproj", "{75447BFB-966F-4A04-BEAD-44E41270340C}"
 EndProject
@@ -15,8 +15,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luval.rpa.rules", "luval.rpa.rules\luval.rpa.rules.csproj", "{739CD132-13D9-4A0D-8180-08487F9B0E14}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "luval.rpa.console", "luval.rpa.console\luval.rpa.console.csproj", "{5E0CAB3E-87F8-4190-994F-AD4B85301604}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,12 +46,6 @@ Global
 		{5E0CAB3E-87F8-4190-994F-AD4B85301604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0CAB3E-87F8-4190-994F-AD4B85301604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0CAB3E-87F8-4190-994F-AD4B85301604}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.debug_console|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.debug_console|Any CPU.Build.0 = Debug|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECA2E8FD-EBBE-4C4F-ABEA-2C57F63C525C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
