@@ -15,20 +15,23 @@
     <PublishUrl>C:\Users\ARenaud\Documents\rpa-navigator-master\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
+    <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://luval.blob.core.windows.net/apps/rpa-navigator/publish/</UpdateUrl>
     <SupportUrl>https://github.com/marinoscar/rpa-navigator/wiki/About</SupportUrl>
     <ErrorReportUrl>https://github.com/marinoscar/rpa-navigator/wiki/About</ErrorReportUrl>
     <ProductName>RPA Navigator</ProductName>
-    <PublisherName>Oscar Marin</PublisherName>
+    <PublisherName>Oscar Marin - Antoine Renaud</PublisherName>
+    <MinimumRequiredVersion>1.0.0.38</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>35</ApplicationRevision>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>41</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -55,7 +58,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>572CC204CF2967F5FEF32F6CD028D974E3E42D5C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>5CDD94B4C5571CF345931841197BF6C2C0132EC4</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>
@@ -65,7 +68,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
